@@ -1,3 +1,6 @@
+# LeetCode 167
+# Input array is sorted
+
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
                
