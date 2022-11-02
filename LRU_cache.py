@@ -52,12 +52,17 @@ class LRUCache:
 # CORRECT OUTPUT:
 # [null,null,null,2,null,null,-1]
 obj = LRUCache(2)
-obj.put(2,1)
-obj.put(2,2)
-obj.get(2)
 obj.put(1,1)
-obj.put(4,1)
+obj.put(2,2)
+obj.get(1)
+obj.put(3,3)
 obj.get(2)
+obj.put(4,4)
+obj.get(1)
+obj.get(3)
+obj.get(4)
+
+
 
 
 
