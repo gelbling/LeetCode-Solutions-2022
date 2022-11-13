@@ -3,7 +3,7 @@
 # INCOMPLETE
 
 class Solution:
-    def rob(self, nums: List[int]) -> int:
+    def rob(self, nums) -> int:
         
         #2 -> [7]
         #7 -> [2,9] *
